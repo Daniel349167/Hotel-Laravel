@@ -204,12 +204,12 @@
                     </div>
                     <div class="data-direction">
                         {{ $business->direccion }}<br>
-                        {{ $ubigeo["distrito"] }} - {{ $ubigeo["provincia"] }} - {{ $ubigeo["departamento"] }}<br>
+                        <br>
                         Tel&eacute;fono: {{ ($business->telefono == null) ? '-' : $business->telefono }}<br>
                     </div>
                 </td>
                 <td class="data-ruc">
-                    <div class="ruc">R.U.C. {{ $business->ruc }}</div>
+                    <div class="ruc">NIT {{ $business->ruc }}</div>
                     <div class="name">{{ $type_document->descripcion }}</div>
                     <div class="number">{{ $factura->serie . '-' . $factura->correlativo }}</div>
                 </td>
@@ -219,9 +219,9 @@
             <b class="w-15">NOMBRE</b>
             <span class="w-50">: {{ $client->nombres }}</span>
             <b class="w-15">MONEDA</b>
-            <span class="w-20">: SOLES</span>
+            <span class="w-20">: Quetzales</span>
             
-            <b class="w-15">RUC</b>
+            <b class="w-15">NIT</b>
             <span class="w-50">: {{ $client->dni_ruc }}</span>
             <b class="w-15">VENDEDOR</b>
             <span class="w-20">: ADMINISTRADOR</span>
@@ -239,8 +239,7 @@
                 <th class="row-1">CODIGO</th>
                 <th class="row-2">DESCRIPCIÓN</th>
                 <th class="row-1">CANT.</th>
-                <th class="row-1">UND.</th>
-                <th class="row-1">P.UNIT.</th>
+                <th class="row-1">Precio/noche</th>
                 <th class="row-1">TOTAL</th>
             </thead>
             <tbody>
@@ -259,7 +258,7 @@
         </table>
         <div class="price-text">
             <span>SON: </span>
-            <span>{{ $numero_letras }} CON 00/100 SOLES</span>
+            <span>{{ $numero_letras }} CON 00/100 Quetzales</span>
         </div>
         <table class="all">
            <tr>
@@ -269,15 +268,15 @@
                 </td>
                 <td class="all-pay">
                     <div class="item">
-                        <div class="left">OP. GRAVADAS: S/.</div>
+                        <div class="left">Sub-TOTAL Q</div>
                         <div class="right">{{ number_format(($factura->exonerada + $factura->gravada + $factura->inafecta), 2, '.', '') }}</div>
                     </div>
                     <div class="item">
-                        <div class="left">IGV: S/.</div>
+                        <div class="left">IVA: Q</div>
                         <div class="right">{{ $factura->igv }}</div>
                     </div>
                     <div class="item bold">
-                        <div class="left">TOTAL A PAGAR: S/.</div>
+                        <div class="left">TOTAL A PAGAR: Q</div>
                         <div class="right">{{ $factura->total }}</div>
                     </div>
                 </td>
@@ -304,8 +303,8 @@
                     </div>
                 </div>
                 <div class="secondary">
-                    <p>Representaci&oacute;n impresa del Comprobante Electr&oacute;nico, Consulte su comprobante en:</p>
-                    <a class="link-search" href="https://mytems.cloud.com/buscar">https://facturacion.mytems.cloud/buscar</a>
+                    <p>Gracias por visitar el Hotel y Restaurante Maria's ¡Es un placer servirte!</p>
+                  
                 </div>
                 
             </div>

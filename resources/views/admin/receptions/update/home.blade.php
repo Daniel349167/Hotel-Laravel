@@ -176,16 +176,16 @@
                                                 <span class="d-none span__inafecta"></span>
                                                 <div class="d-flex justify-content-between">
                                                     <span class="w-px-100">OP. Gravadas:</span>
-                                                    <span class="fw-medium">Q/ <span class="span__subtotal">{{ number_format(($reception->exonerada + $reception->gravada + $reception->inafecta), 2) }}</span> </span>
+                                                    <span class="fw-medium">Q <span class="span__subtotal">{{ number_format(($reception->exonerada + $reception->gravada + $reception->inafecta), 2) }}</span> </span>
                                                 </div>
                                                 <div class="d-flex justify-content-between">
                                                     <span class="w-px-100">IGV:</span>
-                                                    <span class="fw-medium">Q/<span class="span__igv">{{ number_format(($reception->igv), 2) }}</span>
+                                                    <span class="fw-medium">Q<span class="span__igv">{{ number_format(($reception->igv), 2) }}</span>
                                                 </div>
                                                 <hr>
                                                 <div class="d-flex justify-content-between">
                                                     <span class="w-px-100">Total (+recepci&oacute;n):</span>
-                                                    <span class="fw-medium">Q/<span class="span__total">{{ number_format($reception->total, 2, ".", " ") }}</span></span>
+                                                    <span class="fw-medium">Q<span class="span__total">{{ number_format($reception->total, 2, ".", " ") }}</span></span>
                                                 </div>
                                             </div>
                                         </div>

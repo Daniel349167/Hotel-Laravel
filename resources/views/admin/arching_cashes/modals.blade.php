@@ -69,7 +69,7 @@
                                         <th class="sort">Cliente</th>
                                         <th class="sort">Documento</th>
                                         <th class="sort">Número</th>
-                                        <th>Monto S/</th>
+                                        <th>Monto Q</th>
                                     </tr>
                                 </thead>
                             </table>

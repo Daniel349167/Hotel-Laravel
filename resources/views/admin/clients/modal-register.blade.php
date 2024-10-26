@@ -21,7 +21,7 @@
                     </div>
 
                     <div class="col-12 col-md-6 mb-3">
-                        <label class="form-label" for="dni_ruc">N&uacute;mero</label>
+                        <label class="form-label" for="dni_ruc">Numero de Documento</label>
                         <div class="input-group">
                             <input type="text" class="form-control" name="dni_ruc">
                             <button id="wrapper-input-reniec" class="btn btn-outline-secondary waves-effect btn-search-dniruc d-none" type="button" id="button-addon2">
@@ -37,37 +37,34 @@
                     </div>
 
                     <div class="col-12 mb-3">
-                        <label class="form-label" for="razon_social">Nombre o Raz&oacute;n Social</label>
+                        <label class="form-label" for="razon_social">Nombre de Cliente</label>
                         <input type="text" class="form-control text-uppercase" name="razon_social">
                         <div class="invalid-feedback">El campo no debe estar vacío</div>
                     </div>
 
                     <div class="col-12 col-md-8 mb-3">
-                        <label class="form-label" for="direccion">Direcci&oacute;n</label>
+                        <label class="form-label" for="direccion">Dirección del Cliente</label>
                         <input type="text" class="form-control text-uppercase" name="direccion">
                         <div class="invalid-feedback">El campo no debe estar vacío</div>
                     </div>
-
                     <div class="col-12 col-md-4 mb-3">
-                        <label class="form-label" for="telefono">Tel&oacute;fono <small class="text-danger" style="font-size: 12px;">(Opcional)</small></label>
+                        <label class="form-label" for="telefono"> No. Teléfono   <small class="text-danger" style="font-size: 12px;">(Opcional)</small></label>
                         <input type="text" class="form-control" name="telefono">
                     </div>
-
                     <div class="col-12 col-md-4 mb-3">
                         <label class="form-label" for="departamento">Departamento</label>
                         <select name="departamento" id="departamento" class="select2 select2_department form-control"></select>
                     </div>
 
                     <div id="wrapper_province" class="col-12 col-md-4 mb-3 d-none">
-                        <label class="form-label" for="provincia">Provincia</label>
+                        <label class="form-label" for="provincia">Cabecera</label>
                         <select name="provincia" id="provincia" class="select2 select2_province form-control"></select>
                     </div>
 
                     <div id="wrapper_district" class="col-12 col-md-4 mb-3 d-none">
-                        <label class="form-label" for="distrito">Distrito</label>
+                        <label class="form-label" for="distrito">Municipio</label>
                         <select name="distrito" id="distrito" class="select2 select2_district form-control"></select>
                     </div>
-
                     <div class="col-12 text-end">
                         <button type="button" class="btn btn-label-secondary btn-close-modal-client">Cerrar</button>
                         <button class="btn btn-primary btn-save-client">

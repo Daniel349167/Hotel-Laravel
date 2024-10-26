@@ -47,7 +47,7 @@
 }
 .light-style .ui-timepicker-list li:hover {
   background: rgba(115, 103, 240, 0.08);
-  color: #7367f0;
+  color: #9d0909;
 }
 .light-style .ui-timepicker-list li:not(.ui-timepicker-selected) .ui-timepicker-duration {
   color: #a5a3ae;
@@ -74,7 +74,7 @@
 }
 .dark-style .ui-timepicker-list li:hover {
   background: rgba(115, 103, 240, 0.08);
-  color: #7367f0;
+  color: #9d0909;
 }
 .dark-style .ui-timepicker-list li:not(.ui-timepicker-selected) .ui-timepicker-duration {
   color: #7983bb;

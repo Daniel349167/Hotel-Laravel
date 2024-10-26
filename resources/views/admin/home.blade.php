@@ -65,13 +65,13 @@
                 <div class="col-xl-6 mb-4 col-md-3 col-6">
                     <div class="card">
                         <div class="card-header pb-0">
-                            <h5 class="card-title mb-0">Q/{{ number_format($bills, 2, '.', '') }}</h5>
+                            <h5 class="card-title mb-0">Q{{ number_format($bills, 2, '.', '') }}</h5>
                             <small class="text-muted">Gastos</small>
                         </div>
                         <div class="card-body">
                             <div id="expensesChart"></div>
                             <div class="mt-md-2 text-center mt-lg-3 mt-3">
-                                <small class="text-muted mt-3">Q/{{ number_format($bills_former, 2, '.', '') }} Gastos
+                                <small class="text-muted mt-3">Q{{ number_format($bills_former, 2, '.', '') }} Gastos
                                     m&aacute;s que el mes pasado.</small>
                             </div>
                         </div>
@@ -143,7 +143,7 @@
                                     </button>
                                 </div>
                             </div>
-                            <h3 class="text-center pt-4 mb-0">Q/{{ number_format($ganancias, 2, '.', '') }}</h3>
+                            <h3 class="text-center pt-4 mb-0">Q{{ number_format($ganancias, 2, '.', '') }}</h3>
                             <div class="px-3">
                                 <div id="budgetChart"></div>
                             </div>
@@ -306,8 +306,8 @@
                     <table class="table table-borderless border-top">
                         <thead class="border-bottom">
                             <tr>
-                                <th>RUC/DNI</th>
-                                <th class="text-left" width="60%">Raz&oacute;n Social</th>
+                                <th>NIT</th>
+                                <th class="text-left" width="60%">Nombre del Cliente</th>
                                 <th>Cantidad</th>
                                 <th>Importe</th>
                             </tr>

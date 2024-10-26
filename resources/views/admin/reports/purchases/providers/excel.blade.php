@@ -86,18 +86,15 @@
                     <tr>
                         <th colspan="2" class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Documento</th>
                         <th colspan="2" class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Proveedor</th>
-                        <th colspan="5" class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Soles</th>
+                        <th colspan="5" class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Quetzales</th>
                     </tr>
 
                     <tr>
                         <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Fecha</th>
                         <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Documento</th>
-                        <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">RUC / DNI</th>
-                        <th class="th_items border-solid" style="border: 1px solid #151515">Razón Social</th>
-                        <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Exonerado</th>
-                        <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Gravado</th>
-                        <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Inafecta</th>
-                        <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">IGV</th>
+                        <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">NIT</th>
+                        <th class="th_items border-solid" style="border: 1px solid #151515">Nombre</th>
+                        <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">IVA</th>
                         <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Total</th>
                     </tr>
                 </thead>
@@ -125,7 +122,7 @@
                         </tr>
                         @endforelse
                         <tr>
-                            <td colspan="8" class="border-solid" style="text-align: right; border: 1px solid #151515">Total S/ &nbsp;</td>
+                            <td colspan="8" class="border-solid" style="text-align: right; border: 1px solid #151515">Total Q &nbsp;</td>
                             <td class="td_items border-solid" style="text-align: center; border: 1px solid #151515">{{ number_format($total, 2, ".", "") }}</td>
                         </tr>
                 </tbody>

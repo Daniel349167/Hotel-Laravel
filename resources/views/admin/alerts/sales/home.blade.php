@@ -23,10 +23,15 @@
                                                 <th class="text-center" width="7%">#</th>
                                                 <th class="text-center" width="13%">Fecha Emisi&oacute;n</th>
                                                 <th class="text-center" width="12%">Documento</th>
-                                                <th class="text-center" width="12%">RUC/DNI</th>
+                                                <th class="text-center" width="12%">DPI</th>
                                                 <th class="text-left">Raz&oacute;n Social</th>
                                                 <th class="text-center" width="20%">D&iacute;as para vencer</th>
-                                                <th class="text-center" width="13%">Enviar a SUNAT</th>
+                                                <th class="text-center" width="13%">
+    <a href="https://wa.me/50231417617?text=Hola,%20deseo%20enviar%20este%20documento%20a%20SUNAT" target="_blank" class="text-success" style="text-decoration: none;">
+        <i class="fab fa-whatsapp" style="font-size: 18px;"></i> Enviar documento a Whatsapp
+    </a>
+</th>
+
                                             </tr>
                                         </thead>
                                         <tbody id="wrapper_tbody"></tbody>

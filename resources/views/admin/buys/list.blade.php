@@ -19,7 +19,7 @@
                                     <th width="7%">#</th>
                                     <th width="12%">Documento</th>
                                     <th width="10%">Fecha</th>
-                                    <th width="9%">RUC</th>
+                                    <th width="9%">NIT</th>
                                     <th>Proveedor</th>
                                     <th width="9%">Total</th>
                                     <th width="9%">Estado</th>

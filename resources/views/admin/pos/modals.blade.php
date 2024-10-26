@@ -160,13 +160,13 @@
                                       <div class="row">
                                           <div class="col-6 pr-sm-0"><span
                                                   class="text-primary fw-bold">Total:</span></div>
-                                          <div class="col-6 pl-sm-0"><span class="fw-bold">Q/ <span id="total_pay"></span></span>
+                                          <div class="col-6 pl-sm-0"><span class="fw-bold">Q <span id="total_pay"></span></span>
                                           </div>
                                       </div>
                                       <div class="row">
                                           <div class="col-6 pr-sm-0"><span
                                                   class="text-info fw-bold">Pagando:</span></div>
-                                          <div class="col-6 pl-sm-0"><span class="fw-bold">Q/ <span id="total_paying"></span></span>
+                                          <div class="col-6 pl-sm-0"><span class="fw-bold">Q <span id="total_paying"></span></span>
                                           </div>
                                       </div>
                                       <hr class="my-1 line-total">
@@ -175,7 +175,7 @@
                                               <span class="fw-bold text-success wrapper_difference">Diferencia:</span>
                                           </div>
                                           <div class="col-6 pl-sm-0">
-                                              <span class="fw-bold text-success wrapper_difference">Q/ <span id="difference"></span></span>
+                                              <span class="fw-bold text-success wrapper_difference">Q <span id="difference"></span></span>
                                           </div>
                                       </div>
                                   </div>

@@ -115,22 +115,22 @@
             <tbody style="border-bottom: 1px solid #c2c2c2">
                 <tr>
                     <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Exonerada:</td>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q/ 20.00</td>
+                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q 20.00</td>
                 </tr>
 
                 <tr>
                     <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Gravada:</td>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q/ 0.00</td>
+                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q 0.00</td>
                 </tr>
 
                 <tr>
                     <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Inafecta:</td>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q/ 0.00</td>
+                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q 0.00</td>
                 </tr>
 
                 <tr>
                     <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">IGV:</td>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q/ 0.00</td>
+                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q 0.00</td>
                 </tr>
             </tbody>
 
@@ -145,7 +145,7 @@
             <tbody style="border-top: 1px solid #c2c2c2;">
                 <tr style="">
                     <td style="font-size: 12px; font-weight: bold; text-align: center;" colspan="4">
-                        Son: CUARENTA Con 00/100 Soles
+                        Son: CUARENTA Con 00/100 Quetzales
                     </td>
                 </tr>
             </tbody>

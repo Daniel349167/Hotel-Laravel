@@ -89,9 +89,9 @@
             <thead id="thead_items" style="font-size: 12px;">
                 <tr>
                     <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Tipo Doc.</th>
-                    <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">N&uacute;mero</th>
-                    <th class="th_items border-solid" style="border: 1px solid #151515">Nombres</th>
-                    <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Tel&oacute;ono</th>
+                    <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Número de Documento</th>
+                    <th class="th_items border-solid" style="border: 1px solid #151515">Nombre del Cliente</th>
+                    <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Teléfono</th>
                     <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Direcci&oacute;n</th>
                 </tr>
             </thead>

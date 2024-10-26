@@ -201,7 +201,7 @@
             <b class="w-15">NOMBRE</b>
             <span class="w-50">: AGRLICHT PERU S.A.C.</span>
             <b class="w-15">MONEDA</b>
-            <span class="w-20">: SOLES</span>
+            <span class="w-20">: Quetzales</span>
             
             <b class="w-15">RUC</b>
             <span class="w-50">: 20552103816</span>
@@ -342,7 +342,7 @@
         </table>
         <div class="price-text">
             <span>SON: </span>
-            <span>CUARENTA Y UN CON 00/100 SOLES</span>
+            <span>CUARENTA Y UN CON 00/100 Quetzales</span>
         </div>
         <table class="all">
            <tr>
@@ -352,11 +352,11 @@
                 </td>
                 <td class="all-pay">
                     <div class="item">
-                        <div class="left">OP. GRAVADAS: S/.</div>
+                        <div class="left">OP. GRAVADAS: Q</div>
                         <div class="right">34.75</div>
                     </div>
                     <div class="item">
-                        <div class="left">IGV: S/.</div>
+                        <div class="left">IVA Q</div>
                         <div class="right">34.75</div>
                     </div>
                     <div class="item bold">

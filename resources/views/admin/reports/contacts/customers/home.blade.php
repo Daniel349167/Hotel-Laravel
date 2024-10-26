@@ -53,7 +53,7 @@
                                         <thead>
                                             <tr>
                                                 <th class="text-center" width="10%">Tipo Doc.</th>
-                                                <th class="text-center" width="15%">N&uacute;mero</th>
+                                                <th class="text-center" width="15%">Número de Documento</th>
                                                 <th class="text-left">Nombres</th>
                                                 <th class="text-center" width="16%">Correo Electr&oacute;nico</th>
                                                 <th class="text-center">Direcci&oacute;n</th>

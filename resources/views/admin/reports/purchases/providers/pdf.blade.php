@@ -89,18 +89,15 @@
                 <tr>
                     <th colspan="2" class="th_items border-solid">Documento</th>
                     <th colspan="2" class="th_items border-solid">Cliente</th>
-                    <th colspan="5" class="th_items border-solid">Soles</th>
+                    <th colspan="5" class="th_items border-solid">Quetzales</th>
                 </tr>
 
                 <tr>
                     <th class="th_items border-solid">Fecha</th>
                     <th class="th_items border-solid">Documento</th>
-                    <th class="th_items border-solid">RUC / DNI</th>
-                    <th class="th_items border-solid">Razón Social</th>
-                    <th class="th_items border-solid">Exonerada</th>
-                    <th class="th_items border-solid">Gravada</th>
-                    <th class="th_items border-solid">Inafecta</th>
-                    <th class="th_items border-solid">IGV</th>
+                    <th class="th_items border-solid">NIT</th>
+                    <th class="th_items border-solid">Nombre</th>
+                    <th class="th_items border-solid">IVA</th>
                     <th class="th_items border-solid">Total</th>
                 </tr>
             </thead>
@@ -127,7 +124,7 @@
                     </tr>
                     @endforelse
                     <tr>
-                        <td colspan="8" class="text-right border-solid">Total S/ &nbsp;</td>
+                        <td colspan="8" class="text-right border-solid">Total Q &nbsp;</td>
                         <td class="td_items border-solid">{{ number_format($total, 2, ".", "") }}</td>
                     </tr>
             </tbody>

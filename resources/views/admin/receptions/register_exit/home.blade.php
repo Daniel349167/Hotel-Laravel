@@ -80,11 +80,11 @@
                                             <input type="text" id="multicol-first-name" class="form-control" value="{{ number_format($reception->total - $sum_detail, 2, ".", "") }}" readonly name="precio">
                                         </div>
                                         <div class="col-md-3">
-                                            <label class="form-label" for="multicol-first-name">Adelanto</label>
+                                            <label class="form-label" for="multicol-first-name">Monto Recibido</label>
                                             <input type="text" id="multicol-first-name" class="form-control" value="{{ $reception->adelanto }}" readonly name="adelanto">
                                         </div>
                                         <div class="col-md-3">
-                                            <label class="form-label" for="multicol-first-name">Mora / Penalidad</label>
+                                            <label class="form-label" for="multicol-first-name">Cobros Extras</label>
                                             <input type="text" id="multicol-first-name" class="form-control mora" value="0.00" name="mora">
                                         </div>
                                         <div class="col-md-3">
@@ -164,16 +164,16 @@
                                                 <span class="d-none span__inafecta"></span>
                                                 <div class="d-flex justify-content-between">
                                                     <span class="w-px-100">OP. Gravadas:</span>
-                                                    <span class="fw-medium">Q/ <span class="span__subtotal">{{ number_format(($reception->exonerada + $reception->gravada + $reception->inafecta), 2) }}</span> </span>
+                                                    <span class="fw-medium">Q <span class="span__subtotal">{{ number_format(($reception->exonerada + $reception->gravada + $reception->inafecta), 2) }}</span> </span>
                                                 </div>
                                                 <div class="d-flex justify-content-between">
-                                                    <span class="w-px-100">IGV:</span>
-                                                    <span class="fw-medium">Q/<span class="span__igv">{{ number_format(($reception->igv), 2) }}</span>
+                                                    <span class="w-px-100">IVA</span>
+                                                    <span class="fw-medium">Q <span class="span__igv">{{ number_format(($reception->igv), 2) }}</span>
                                                 </div>
                                                 <hr>
                                                 <div class="d-flex justify-content-between">
                                                     <span class="w-px-100">Total a Pagar:</span>
-                                                    <span class="fw-medium">Q/<span class="span__total">{{ number_format($reception->total, 2, ".", " ") }}</span></span>
+                                                    <span class="fw-medium">Q <span class="span__total">{{ number_format($reception->total, 2, ".", " ") }}</span></span>
                                                 </div>
                                             </div>
                                         </div>

@@ -69,7 +69,6 @@
         <img src="{{ public_path('assets/img/branding/logo__mytems.jpg') }}" style="margin-top: 9px;" width="35%" height="7%">
         <p style="font-size: 16px; font-weight: bold; margin-bottom: 0; margin-top: 10px;">{{ $business->nombre_comercial }}</p>
         <p style="font-size: 10px; margin-top:0; margin-bottom: 0;">{{ $business->direccion }}</p>
-        <p style="font-size: 10px; margin-top:0; margin-bottom: 0;">{{ $ubigeo["distrito"] }} - {{ $ubigeo["departamento"] }}</p>
         <p style="font-size: 14px; font-weight: bold; margin-top:0; margin-bottom: 0;">RUC: {{ $business->ruc }}</p>
         <p style="font-size: 14px; font-weight: bold; margin-top:0; margin-bottom: 0;">
             {{ $tipo_comprobante->descripcion }}
@@ -116,22 +115,22 @@
             <tbody style="border-bottom: 1px solid #c2c2c2">
                 <tr>
                     <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Exonerada:</td>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q/ {{ $factura->exonerada }}</td>
+                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q {{ $factura->exonerada }}</td>
                 </tr>
 
                 <tr>
                     <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Gravada:</td>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q/ {{ $factura->gravada }}</td>
+                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q {{ $factura->gravada }}</td>
                 </tr>
 
                 <tr>
                     <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Inafecta:</td>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q/ {{ $factura->inafecta }}</td>
+                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q {{ $factura->inafecta }}</td>
                 </tr>
 
                 <tr>
                     <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">IGV:</td>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q/ {{ $factura->igv }}</td>
+                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q {{ $factura->igv }}</td>
                 </tr>
             </tbody>
 
@@ -139,7 +138,7 @@
                 <tr>
                     <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Importe Total:
                     </td>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q/ {{ $factura->total }}</td>
+                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q {{ $factura->total }}</td>
                 </tr>
             </tbody>
 

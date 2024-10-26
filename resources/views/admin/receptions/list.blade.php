@@ -17,7 +17,7 @@
                             <thead class="table-light">
                                 <tr>
                                     <th width="12%">Habitaci&oacute;n</th>
-                                    <th width="10%">RUC/DNI</th>
+                                    <th width="10%">NIT</th>
                                     <th class="text-left">Cliente</th>
                                     <th width="10%">Entrada</th>
                                     <th width="10%">Salida</th>

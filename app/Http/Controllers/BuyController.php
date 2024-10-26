@@ -186,17 +186,17 @@ class BuyController extends Controller
         }
 
         $html_totales   .= '<div class="d-flex justify-content-between mb-2">
-                                        <span class="w-px-100">OP. Gravadas:</span>
-                                        <span class="fw-medium">Q/' . number_format(($cart['exonerada'] + $cart['gravada'] + $cart['inafecta']), 2, ".", "") . '</span>
+                                        <span class="w-px-100">Sub Total:</span>
+                                        <span class="fw-medium">Q' . number_format(($cart['exonerada'] + $cart['gravada'] + $cart['inafecta']), 2, ".", "") . '</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-2">
-                                        <span class="w-px-100">IGV:</span>
-                                        <span class="fw-medium">Q/' . number_format($cart['igv'], 2, ".", "") . '</span>
+                                        <span class="w-px-100">IVA:</span>
+                                        <span class="fw-medium">Q' . number_format($cart['igv'], 2, ".", "") . '</span>
                                     </div>
                                     <hr>
                                     <div class="d-flex justify-content-between">
                                         <span class="w-px-100">Total:</span>
-                                        <span class="fw-medium">Q/' . number_format($cart['total'], 2, ".", "") . '</span>
+                                        <span class="fw-medium">Q' . number_format($cart['total'], 2, ".", "") . '</span>
                             </div>';
 
         echo json_encode([

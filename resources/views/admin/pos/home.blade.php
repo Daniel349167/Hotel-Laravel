@@ -57,14 +57,14 @@
                                 <div class="d-flex svg-illustration mb-2 gap-2 align-items-center"
                                     style="justify-content: flex-end;">
                                     <div class="app-brand-logo demo">
-                                        <img src="{{ asset('assets/img/icons/icon-login.svg') }}" alt=""
+                                        <img src="{{ asset('assets/img/icons/logomarias.jpg') }}" alt=""
                                             class="img-fluid">
                                     </div>
                                     <span class="fw-bold fs-4">{{ $business->razon_social }}</span>
                                 </div>
 
-                                <p class="mb-1 text-end">R.U.C. {{ $business->ruc }}</p>
-                                <p class="mb-1 text-end">{{ $ubigeo["distrito"] }} - {{ $ubigeo["provincia"] }} - {{ $ubigeo["departamento"] }}</p>
+                                <p class="mb-1 text-end">NIT {{ $business->ruc }}</p>
+                            
                             </div>
                         </div>
                     </div>

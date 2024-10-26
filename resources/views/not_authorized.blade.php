@@ -8,10 +8,10 @@
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
     <title>Pago Pendiente</title>
-    <meta name="description" content="Sistema de Facturación Electrónica desarrollado por Mytems E.I.R.L." />
-    <meta name="author" content="Mytems EIRL.">
+    <meta name="description" content="Hotel y Restaurante Maria's" />
+    <meta name="author" content="Geovany Luis">
 
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon/favicon-mytems.ico') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon/logomarias.jpg') }}">
 
 
     <!-- Fonts -->

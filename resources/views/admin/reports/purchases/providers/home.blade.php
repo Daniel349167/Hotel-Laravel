@@ -97,17 +97,14 @@
                                             <tr>
                                                 <th colspan="2" class="text-center">Documento</th>
                                                 <th colspan="2" class="text-center">Proveedor</th>
-                                                <th colspan="5" class="text-center">Soles</th>
+                                                <th colspan="5" class="text-center">Quetzales</th>
                                             </tr>
                                             <tr>
                                                 <th class="text-center">Fecha</th>
                                                 <th class="text-center">Documento</th>
-                                                <th class="text-center">RUC / DNI</th>
-                                                <th class="text-center">Razón Social</th>
-                                                <th class="text-center">Exonerada</th>
-                                                <th class="text-center">Gravada</th>
-                                                <th class="text-center">Inafecta</th>
-                                                <th class="text-center">IGV</th>
+                                                <th class="text-center">NIT</th>
+                                                <th class="text-center">Nombre</th>
+                                                <th class="text-center">IVA</th>
                                                 <th class="text-center">Importe</th>
                                             </tr>
                                         </thead>

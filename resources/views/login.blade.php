@@ -7,11 +7,11 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
     <title>Login</title>
-    <meta name="description" content="Sistema de Facturación Electrónica desarrollado por Mytems E.I.R.L.">
+    <meta name="description" content="Hotel y Restaurante Maria's">
 
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon/favicon-mytems.ico') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon/logomarias.jpg') }}">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -68,15 +68,15 @@
                 <div class="w-px-400 mx-auto">
                     <!-- Logo -->
                     <div class="app-brand mb-4">
-                        <a href="https://mytems.cloud" class="app-brand-link gap-2" target="_blank">
+                        <a href="Gluis" class="app-brand-link gap-2" target="_blank">
                             <span class="app-brand-logo demo">
-                                <img src="{{ asset('assets/img/icons/icon-login.svg') }}" alt=""
+                                <img src="{{ asset('assets/img/icons/logomarias.jpg') }}" alt=""
                                     class="img-fluid">
                             </span>
                         </a>
                     </div>
                     <!-- /Logo -->
-                    <h3 class="mb-1 fw-bold">Bienvenido a Mytems</h3>
+                    <h3 class="mb-1 fw-bold">Bienvenido a Hotel y Restaurante Maria's</h3>
                     <p class="mb-4">Ingresa a tu cuenta</p>
 
                     <form class="mb-3" action="{{ route('login.login') }}" method="POST">
@@ -105,7 +105,7 @@
 
                     <div class="divider my-4">
                         <div class="divider-text">
-                            <div style="font-size: 11.2px;">v2.0.0 &copy;</div>
+                            <div style="font-size: 11.2px;">v1.0 Jenry Luis</div>
                         </div>
                     </div>
                 </div>

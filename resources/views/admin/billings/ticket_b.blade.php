@@ -69,8 +69,7 @@
         <img src="{{ public_path('assets/img/branding/logo__mytems.jpg') }}" style="margin-top: 9px;" width="35%" height="7%">
         <p style="font-size: 16px; font-weight: bold; margin-bottom: 0; margin-top: 10px;">{{ $business->nombre_comercial }}</p>
         <p style="font-size: 10px; margin-top:0; margin-bottom: 0;">{{ $business->direccion }}</p>
-        <p style="font-size: 10px; margin-top:0; margin-bottom: 0;">{{ $ubigeo["distrito"] }} - {{ $ubigeo["departamento"] }}</p>
-        <p style="font-size: 14px; font-weight: bold; margin-top:0; margin-bottom: 0;">RUC: {{ $business->ruc }}</p>
+        <p style="font-size: 14px; font-weight: bold; margin-top:0; margin-bottom: 0;">NIT: {{ $business->ruc }}</p>
         <p style="font-size: 14px; font-weight: bold; margin-top:0; margin-bottom: 0;">
             {{ $tipo_comprobante->descripcion }}
         </p>
@@ -80,13 +79,12 @@
     </div>
 
     <div class="informacion">
-        <p style="font-size: 11px; margin-top:0; font-weight: bold; margin-bottom: 0;">Adquiriente</p>
+        <p style="font-size: 11px; margin-top:0; font-weight: bold; margin-bottom: 0;">Nombre del Cliente</p>
         <p style="font-size: 10px; margin-top:0; margin-bottom: 0;">{{ $tipo_documento->descripcion_documento }}. {{ $cliente->dni_ruc }}</p>
         <p style="font-size: 10px; margin-top:0; margin-bottom: 0;">{{ $cliente->nombres }}</p>
-        <p style="font-size: 10px; margin-top:0; margin-bottom: 0; text-transform: uppercase">{{ $cliente->direccion }}</p>
+        <p style="font-size: 10px; margin-top:0; margin-bottom: 0; text-transform: uppercase">Direccion Cliente: {{ $cliente->direccion }}</p>
         <p style="font-size: 11px; margin-top:0; font-weight: bold; margin-bottom: 0;">Fecha de Emisión:{{ date('d/m/Y', strtotime($factura->fecha_emision)) }} Hora: {{ $factura->hora }}</p>
 
-        <p style="font-size: 12px; margin-top:0; font-weight: bold; margin-bottom: 0;">Moneda: {{ $moneda->codigo }}</p>
         <p style="font-size: 12px; margin-top:0; margin-bottom: 0;">Forma de Pago: CONTADO </p>
         <p style="font-size: 12px; margin-top:0; margin-bottom: 0;">Vendedor: {{ $vendedor }} </p>
     </div>
@@ -97,8 +95,8 @@
                 <tr>
                     <th style="font-size: 12px;">[Cant]</th>
                     <th style="font-size: 12px; text-align: left;">Descripción</th>
-                    <th style="font-size: 12px;">P/U</th>
-                    <th style="font-size: 12px; text-align:right;">Importe</th>
+                    <th style="font-size: 12px;">P/S</th>
+                    <th style="font-size: 12px; text-align:right;">Gastados</th>
                 </tr>
             </thead>
 
@@ -115,38 +113,28 @@
 
             <tbody style="border-bottom: 1px solid #c2c2c2">
                 <tr>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Exonerada:</td>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q/ {{ $factura->exonerada }}</td>
+                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Sub-Total:</td>
+                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q {{ $factura->exonerada }}</td>
                 </tr>
 
                 <tr>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Gravada:</td>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q/ {{ $factura->gravada }}</td>
-                </tr>
-
-                <tr>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Inafecta:</td>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q/ {{ $factura->inafecta }}</td>
-                </tr>
-
-                <tr>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">IGV:</td>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q/ {{ $factura->igv }}</td>
+                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">IVA:</td>
+                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q {{ $factura->igv }}</td>
                 </tr>
             </tbody>
 
             <tbody style="border-top: 1px solid #c2c2c2; margin-bottom: 20px;">
                 <tr>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Importe Total:
+                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Total:
                     </td>
-                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q/ {{ $factura->total }}</td>
+                    <td style="font-size: 12px; font-weight: bold; text-align: right;" colspan="2">Q {{ $factura->total }}</td>
                 </tr>
             </tbody>
 
             <tbody style="border-top: 1px solid #c2c2c2;">
                 <tr style="">
                     <td style="font-size: 12px; font-weight: bold; text-align: center;" colspan="4">
-                        Son: {{ $numero_letras }} Con 00/100 Soles
+                        Son: {{ $numero_letras }} Con 00/100 Quetzales
                     </td>
                 </tr>
             </tbody>
@@ -167,7 +155,7 @@
     </div>
 
     <div class="" style="">
-        <p style="font-size: 11px; text-align: justify; padding: 0px 18px;">BIENES TRANSFERIDOS EN LA AMAZON&Iacute;A REGI&Oacute;N SELVA PARA SER CONSUMIDOS EN LA MISMA.</p>
+        <p style="font-size: 11px; text-align: justify; padding: 0px 18px;">Gracias por visitar Hotel y Restaurante Maria's, ¡ES UN GUSTO ATENDERTE!</p>
     </div>
 </body>
 </html>

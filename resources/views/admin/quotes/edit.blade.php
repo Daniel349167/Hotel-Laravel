@@ -139,17 +139,17 @@
                                     <span class="d-none span__gravada"></span>
                                     <span class="d-none span__inafecta"></span>
                                     <div class="d-flex justify-content-between mb-2">
-                                        <span class="w-px-100">OP. Gravadas:</span>
-                                        <span class="fw-medium">Q/<span class="span__subtotal">{{ number_format(($quote->exonerada + $quote->gravada + $quote->inafecta), 2, ".", "") }}</span></span>
+                                        <span class="w-px-100">Sub Total</span>
+                                        <span class="fw-medium">Q<span class="span__subtotal">{{ number_format(($quote->exonerada + $quote->gravada + $quote->inafecta), 2, ".", "") }}</span></span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-2">
                                         <span class="w-px-100">IGV:</span>
-                                        <span class="fw-medium">Q/<span class="span__igv">{{ number_format($quote->igv, 2, ".", "") }}</span></span>
+                                        <span class="fw-medium">Q<span class="span__igv">{{ number_format($quote->igv, 2, ".", "") }}</span></span>
                                     </div>
                                     <hr>
                                     <div class="d-flex justify-content-between">
                                         <span class="w-px-100">Total:</span>
-                                        <span class="fw-medium">Q/<span class="span__total">{{ number_format($quote->total, 2, ".", "") }}</span></span>
+                                        <span class="fw-medium">Q<span class="span__total">{{ number_format($quote->total, 2, ".", "") }}</span></span>
                                 </div>
                                 </div>
                             </div>

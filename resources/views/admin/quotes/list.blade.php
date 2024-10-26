@@ -18,7 +18,7 @@
                                 <tr>
                                     <th width="12%">Documento</th>
                                     <th width="11%">Fecha</th>
-                                    <th width="10%">RUC/DNI</th>
+                                    <th width="10%">NIT</th>
                                     <th>Cliente</th>
                                     <th width="9%">Total</th>
                                     <th width="20%">Doc. Relacionado</th>

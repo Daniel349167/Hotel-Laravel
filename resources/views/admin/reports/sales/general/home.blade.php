@@ -99,19 +99,16 @@
                                             <tr>
                                                 <th colspan="4" class="text-center">Documento</th>
                                                 <th colspan="2" class="text-center">Cliente</th>
-                                                <th colspan="5" class="text-center">Soles</th>
+                                                <th colspan="5" class="text-center">QUetzales</th>
                                             </tr>
                                             <tr>
                                                 <th class="text-center">Fecha</th>
                                                 <th class="text-center">Documento</th>
                                                 <th class="text-center">Pago</th>
                                                 <th class="text-center">Doc. Relacionado</th>
-                                                <th class="text-center">RUC / DNI</th>
-                                                <th class="text-left">Razón Social</th>
-                                                <th class="text-center">Exonerada</th>
-                                                <th class="text-center">Gravada</th>
-                                                <th class="text-center">Inafecta</th>
-                                                <th class="text-center">IGV</th>
+                                                <th class="text-center">NIT</th>
+                                                <th class="text-left">Nombre</th>
+                                                <th class="text-center">IVA</th>
                                                 <th class="text-center">Importe</th>
                                             </tr>
                                         </thead>

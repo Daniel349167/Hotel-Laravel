@@ -122,7 +122,7 @@
                     </tr>
                 @endforelse
                 <tr>
-                    <td colspan="4" class="text-right border-solid">Total S/ &nbsp;</td>
+                    <td colspan="4" class="text-right border-solid">Total Q &nbsp;</td>
                     <td class="th_item_bill border-solid">{{ number_format($total, 2, ".", "") }}</td>
                 </tr>
             </tbody>

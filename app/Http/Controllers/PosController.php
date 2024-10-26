@@ -219,17 +219,17 @@ class PosController extends Controller
         }
 
         $html_totales   .= '<div class="d-flex justify-content-between align-items-center mt-3">
-                                    <p class="mb-0">OP. Gravadas</p>
-                                    <h6 class="mb-0">Q/' . number_format(($cart['exonerada'] + $cart['gravada'] + $cart['inafecta']), 2, ".", "") . '</h6>
+                                    <p class="mb-0">Sub Total:</p>
+                                    <h6 class="mb-0">Q' . number_format(($cart['exonerada'] + $cart['gravada'] + $cart['inafecta']), 2, ".", "") . '</h6>
                                 </div>
                                 <div class="d-flex justify-content-between align-items-center mt-3">
-                                    <p class="mb-0">IGV</p>
-                                    <h6 class="mb-0">Q/' . number_format($cart['igv'], 2, ".", "") . '</h6>
+                                    <p class="mb-0">IVA</p>
+                                    <h6 class="mb-0">Q' . number_format($cart['igv'], 2, ".", "") . '</h6>
                                 </div>
                                 <hr>
                                 <div class="d-flex justify-content-between align-items-center mt-3 pb-1">
                                     <p class="mb-0">Total</p>
-                                    <h6 class="mb-0">Q/' . number_format($cart['total'], 2, ".", "") . '</h6>
+                                    <h6 class="mb-0">Q' . number_format($cart['total'], 2, ".", "") . '</h6>
                                 </div>';
 
         echo json_encode([

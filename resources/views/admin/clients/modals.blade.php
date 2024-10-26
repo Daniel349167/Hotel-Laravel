@@ -50,20 +50,7 @@
                         <input type="text" class="form-control" name="telefono">
                     </div>
 
-                    <div class="col-12 col-md-4 mb-3">
-                        <label class="form-label" for="departamento">Departamento</label>
-                        <select name="departamento" id="departamento" class="select2 select2_department form-control"></select>
-                    </div>
 
-                    <div id="wrapper_province" class="col-12 col-md-4 mb-3">
-                        <label class="form-label" for="provincia">Provincia</label>
-                        <select name="provincia" id="provincia" class="select2 select2_province form-control"></select>
-                    </div>
-
-                    <div id="wrapper_district" class="col-12 col-md-4 mb-3">
-                        <label class="form-label" for="distrito">Distrito</label>
-                        <select name="distrito" id="distrito" class="select2 select2_district form-control"></select>
-                    </div>
 
                     <div class="col-12 text-end">
                         <button type="button" class="btn btn-label-secondary"

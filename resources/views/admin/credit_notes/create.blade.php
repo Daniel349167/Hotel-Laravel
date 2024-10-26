@@ -138,17 +138,17 @@
                             <div class="col-md-12 d-flex justify-content-end -0 p-sm-4">
                                 <div id="wrapper_totals" class="invoice-calculations">
                                     <div class="d-flex justify-content-between mb-2">
-                                            <span class="w-px-100">OP. Gravadas:</span>
-                                            <span class="fw-medium">Q/{{ number_format(($factura['exonerada'] + $factura['gravada'] + $factura['inafecta']), 2, ".", "") }}</span>
+                                            <span class="w-px-100">Sub Total</span>
+                                            <span class="fw-medium">Q{{ number_format(($factura['exonerada'] + $factura['gravada'] + $factura['inafecta']), 2, ".", "") }}</span>
                                         </div>
                                         <div class="d-flex justify-content-between mb-2">
                                             <span class="w-px-100">IGV:</span>
-                                            <span class="fw-medium">Q/{{ number_format($factura['igv'], 2, ".", "") }}</span>
+                                            <span class="fw-medium">Q{{ number_format($factura['igv'], 2, ".", "") }}</span>
                                         </div>
                                         <hr>
                                         <div class="d-flex justify-content-between">
                                             <span class="w-px-100">Total:</span>
-                                            <span class="fw-medium">Q/{{ number_format($factura['total'], 2, ".", "") }}</span>
+                                            <span class="fw-medium">Q{{ number_format($factura['total'], 2, ".", "") }}</span>
                                     </div>
                                 </div>
                             </div>

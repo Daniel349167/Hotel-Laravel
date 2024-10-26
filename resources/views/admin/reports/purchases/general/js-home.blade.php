@@ -45,7 +45,7 @@
                             </tr>`;
                 });
                 html_tbody += `<tr>
-                                <th colspan="8" class="text-end">Total S/ </th>
+                                <th colspan="8" class="text-end">Total Q </th>
                                 <td class="text-center">${parseFloat(total).toFixed(2)}</td>
                             </tr>`;
                 $('#wrapper_tbody').html(html_tbody);

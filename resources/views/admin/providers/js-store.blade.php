@@ -279,21 +279,7 @@
         });
     });
 
-    function active__ubigeo__edit(ubigeo)
-    {
-        let departamento = ubigeo.substring(0, 2),
-            provincia    = ubigeo.substring(0, 4),
-            distrito     = ubigeo.substring(0, 6);
-
-        $('#form_edit_provider select[name="departamento"]').val(departamento).trigger('change');
-        setTimeout(() => {
-            $('#form_edit_provider select[name="provincia"]').val(provincia).trigger('change');
-        }, 600);
-        setTimeout(() => {
-            $('#form_edit_provider select[name="distrito"]').val(distrito).trigger('change');
-        }, 900);
-    }
-
+ 
     $('body').on('click', '#form_edit_provider .btn-store-provider', function()
     {
         event.preventDefault();

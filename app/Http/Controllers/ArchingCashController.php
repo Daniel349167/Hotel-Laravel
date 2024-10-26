@@ -275,7 +275,7 @@ class ArchingCashController extends Controller
         $bills_empty        = null;
         if(count($bills) == 0)
         {
-            $html_bills     .= 'S/' . number_format($sum_bills, 2, ".", "");
+            $html_bills     .= 'Q' . number_format($sum_bills, 2, ".", "");
             $bills_empty    = true;
         }
         else
@@ -300,7 +300,7 @@ class ArchingCashController extends Controller
         $sales_empty        = null;
         if(count($sales) == 0)
         {
-            $html_sales     .= 'S/0.00';
+            $html_sales     .= 'Q0.00';
             $sales_empty    = true;
         }
         else

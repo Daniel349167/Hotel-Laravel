@@ -62,13 +62,13 @@
 
 <body>
     <div id="cabecera">
-        <h4>REPORTE DE ARQUEO DE CAJA</h4>
+        <h4>REPORTE DE CAJA</h4>
     </div>
 
     <div id="informacion">
         <table style="font-size: 15px;">
             <tr>
-                <th class="th_informacion">RUC</th>
+                <th class="th_informacion">NIT</th>
                 <td class="td_informacion">{{ $business->ruc }}</td>
             </tr>
 
@@ -84,7 +84,7 @@
 
             <tr>
                 <th class="th_informacion">MONTO INICIAL</th>
-                <td class="td_informacion">Q/{{ number_format($cash->monto_inicial, 2, '.', '') }}</td>
+                <td class="td_informacion">Q{{ number_format($cash->monto_inicial, 2, '.', '') }}</td>
             </tr>
         </table>
     </div>
@@ -95,14 +95,14 @@
                 <tr>
                     <th colspan="3" class="th_items border-solid">Documento</th>
                     <th colspan="2" class="th_items border-solid">Cliente</th>
-                    <th colspan="5" class="th_items border-solid">Soles</th>
+                    <th colspan="5" class="th_items border-solid">Quetzales</th>
                 </tr>
                 <tr>
                     <th class="th_items border-solid">Fecha</th>
                     <th class="th_items border-solid">Documento</th>
                     <th class="th_items border-solid">Pago</th>
-                    <th class="th_items border-solid">RUC / DNI</th>
-                    <th class="th_items border-solid">Razón Social</th>
+                    <th class="th_items border-solid">NIT</th>
+                    <th class="th_items border-solid">Nombre del Cliente</th>
                     <th class="th_items border-solid">Exonerada</th>
                     <th class="th_items border-solid">Gravada</th>
                     <th class="th_items border-solid">Inafecta</th>
@@ -135,15 +135,15 @@
                     </tr>
                 @endforeach
                 <tr>
-                    <td colspan="9" class="text-right border-solid text-danger">Gastos S/ &nbsp;</td>
+                    <td colspan="9" class="text-right border-solid text-danger">Gastos Q &nbsp;</td>
                     <td class="td_items border-solid text-danger">-{{ number_format($sum_bills, 2, '.', '') }}</td>
                 </tr>
                 <tr>
-                    <td colspan="9" class="text-right border-solid">Total Ventas S/ &nbsp;</td>
+                    <td colspan="9" class="text-right border-solid">Total Ventas Q &nbsp;</td>
                     <td class="td_items border-solid">{{ number_format($monto_ventas, 2, '.', '') }}</td>
                 </tr>
                 <tr>
-                    <td colspan="9" class="text-right border-solid">Total S/ &nbsp;</td>
+                    <td colspan="9" class="text-right border-solid">Total Q &nbsp;</td>
                     <td class="td_items border-solid">{{ number_format($total, 2, '.', '') }}</td>
                 </tr>
             </tbody>

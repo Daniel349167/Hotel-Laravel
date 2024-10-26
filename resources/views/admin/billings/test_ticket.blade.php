@@ -80,14 +80,13 @@
     </div>
 
     <div class="informacion">
-        <p style="font-size: 12px; margin-top:0; font-weight: bold; margin-bottom: 0;">Adquiriente</p>
+        <p style="font-size: 12px; margin-top:0; font-weight: bold; margin-bottom: 0;">Nombre del Cliente</p>
         <p style="font-size: 11px; margin-top:0; margin-bottom: 0;">DNI . 71433073</p>
         <p style="font-size: 11px; margin-top:0; margin-bottom: 0;">KROWED NAJAR LOZANO</p>
         <p style="font-size: 11px; margin-top:0; margin-bottom: 0; text-transform: uppercase">JR SANTA INES 451</p>
         <p style="font-size: 12px; margin-top:0; font-weight: bold; margin-bottom: 0;">Fecha de Emisión:
             04/12/2021 Hora: 10:12</p>
 
-        <p style="font-size: 12px; margin-top:0; font-weight: bold; margin-bottom: 0;">Moneda: PEN</p>
         <p style="font-size: 12px; margin-top:0; margin-bottom: 0;">Forma de Pago: CONTADO </p>
         <p style="font-size: 12px; margin-top:0; margin-bottom: 0;">Vendedor: Administrador </p>
         <p style="font-size: 12px; margin-top:0; margin-bottom: 0;">Efectivo: 20.00 Vuelto: 10.00 </p>
@@ -99,7 +98,7 @@
                 <tr>
                     <th style="font-size: 12px;">[Cant]</th>
                     <th style="font-size: 12px; text-align: left;">Descripción</th>
-                    <th style="font-size: 12px;">P/U</th>
+                    <th style="font-size: 12px;">P/S</th>
                     <th style="font-size: 12px; text-align: right;">Total</th>
                 </tr>
             </thead>
@@ -115,23 +114,18 @@
 
             <tbody style="border-bottom: 1px solid #c2c2c2">
                 <tr>
-                    <td style="font-size: 11px; font-weight: bold; text-align: right;" colspan="2">Exonerada:</td>
-                    <td style="font-size: 11px; font-weight: bold; text-align: right;" colspan="2">Q/ 20.00</td>
-                </tr>
-
-                <tr>
-                    <td style="font-size: 11px; font-weight: bold; text-align: right;" colspan="2">Gravada:</td>
-                    <td style="font-size: 11px; font-weight: bold; text-align: right;" colspan="2">Q/ 0.00</td>
+                    <td style="font-size: 11px; font-weight: bold; text-align: right;" colspan="2">Sub-Total:</td>
+                    <td style="font-size: 11px; font-weight: bold; text-align: right;" colspan="2">Q 20.00</td>
                 </tr>
 
                 <tr>
                     <td style="font-size: 11px; font-weight: bold; text-align: right;" colspan="2">Inafecta:</td>
-                    <td style="font-size: 11px; font-weight: bold; text-align: right;" colspan="2">Q/ 0.00</td>
+                    <td style="font-size: 11px; font-weight: bold; text-align: right;" colspan="2">Q 0.00</td>
                 </tr>
 
                 <tr>
                     <td style="font-size: 11px; font-weight: bold; text-align: right;" colspan="2">IGV:</td>
-                    <td style="font-size: 11px; font-weight: bold; text-align: right;" colspan="2">Q/ 0.00</td>
+                    <td style="font-size: 11px; font-weight: bold; text-align: right;" colspan="2">Q 0.00</td>
                 </tr>
             </tbody>
 
@@ -139,7 +133,7 @@
                 <tr>
                     <td style="font-size: 11px; font-weight: bold; text-align: right;" colspan="2">Importe Total:
                     </td>
-                    <td style="font-size: 11px; font-weight: bold; text-align: right;" colspan="2">Q/ 0.00</td>
+                    <td style="font-size: 11px; font-weight: bold; text-align: right;" colspan="2">Q 0.00</td>
                 </tr>
             </tbody>
 

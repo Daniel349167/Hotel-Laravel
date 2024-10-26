@@ -200,7 +200,7 @@
                     </div>
                     <div class="data-direction">
                         {{ $business->direccion }}<br>
-                        {{ $ubigeo["distrito"] }} - {{ $ubigeo["provincia"] }} - {{ $ubigeo["departamento"] }}<br>
+                        <br>
                         Tel&eacute;fono: {{ ($business->telefono == null) ? '-' : $business->telefono }}<br>
                     </div>
                 </td>
@@ -255,7 +255,7 @@
         </table>
         <div class="price-text">
             <span>SON: </span>
-            <span>{{ $numero_letras }} CON 00/100 SOLES</span>
+            <span>{{ $numero_letras }} CON 00/100 Quetzales</span>
         </div>
         <table class="all">
            <tr>
@@ -265,15 +265,15 @@
                 </td>
                 <td class="all-pay">
                     <div class="item">
-                        <div class="left">OP. GRAVADAS: S/.</div>
+                        <div class="left">OP. GRAVADAS: Q</div>
                         <div class="right">{{ number_format(($factura->exonerada + $factura->gravada + $factura->inafecta), 2, '.', '') }}</div>
                     </div>
                     <div class="item">
-                        <div class="left">IGV: S/.</div>
+                        <div class="left">IGV: Q</div>
                         <div class="right">{{ $factura->igv }}</div>
                     </div>
                     <div class="item bold">
-                        <div class="left">TOTAL A PAGAR: S/.</div>
+                        <div class="left">TOTAL A PAGAR: Q</div>
                         <div class="right">{{ $factura->total }}</div>
                     </div>
                 </td>

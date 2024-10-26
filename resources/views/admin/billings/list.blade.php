@@ -18,12 +18,12 @@
                                 <tr>
                                     <th width="10%" class="text-center">Documento</th>
                                     <th width="10%" class="text-center">Fecha</th>
-                                    <th width="10%" class="text-left">RUC/DNI</th>
+                                    <th width="10%" class="text-left">NIT</th>
                                     <th class="text-left">Cliente</th>
                                     <th width="9%" class="text-center">Total</th>
-                                    <th width="4%" class="text-center">XML</th>
-                                    <th width="4%" class="text-center">CDR</th>
-                                    <th width="7%" class="text-center">SUNAT</th>
+                                    <th width="4%" class="text-center">XML (Logs)</th>
+                                    <th width="4%" class="text-center">CDR (Logs)</th>
+                                    <th width="7%" class="text-center">Ticket Enviado</th>
                                     <th width="7%" class="text-center">Comprobante</th>
                                     <th width="10%" class="text-center">Acciones
                                 </tr>

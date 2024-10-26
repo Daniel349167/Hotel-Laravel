@@ -96,7 +96,7 @@
             
                                                     <div class="col-md-4 mb-3">
                                                         <div class="form-group">
-                                                            <label class="form-label" for="adelanto">Adelanto</label>
+                                                            <label class="form-label" for="adelanto">Monto Recibido</label>
                                                             <input type="text" name="adelanto" id="adelanto" class="form-control adelanto" value="0.00">
                                                         </div>
                                                     </div>

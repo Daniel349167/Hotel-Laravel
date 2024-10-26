@@ -96,18 +96,15 @@
                 <tr>
                     <th colspan="3" class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Documento</th>
                     <th colspan="2" class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Cliente</th>
-                    <th colspan="5" class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Soles</th>
+                    <th colspan="5" class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Quetzales</th>
                 </tr>
                 <tr>
                     <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Fecha</th>
                     <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Documento</th>
                     <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Pago</th>
-                    <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">RUC / DNI</th>
-                    <th class="th_items border-solid" style="border: 1px solid #151515">Razón Social</th>
-                    <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Exonerada</th>
-                    <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Gravada</th>
-                    <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Inafecta</th>
-                    <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">IGV</th>
+                    <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">NIT</th>
+                    <th class="th_items border-solid" style="border: 1px solid #151515">Nombre</th>
+                    <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">IVA</th>
                     <th class="th_items border-solid" style="text-align: center; border: 1px solid #151515">Importe</th>
                 </tr>
             </thead>
@@ -136,15 +133,15 @@
                     </tr>
                 @endforeach
                 <tr>
-                    <td colspan="9" class="text-right border-solid" style="text-align: right; border: 1px solid #151515">Total S/ &nbsp;</td>
+                    <td colspan="9" class="text-right border-solid" style="text-align: right; border: 1px solid #151515">Total Q &nbsp;</td>
                     <td class="td_items border-solid" style="text-align: center; border: 1px solid #151515" data-format="0.00">{{ number_format($total, 2, '.', '') }}</td>
                 </tr>
                 <tr>
-                    <td colspan="9" class="text-right border-solid text-danger" style="text-align: right; border: 1px solid #151515">Anulado S/ &nbsp;</td>
+                    <td colspan="9" class="text-right border-solid text-danger" style="text-align: right; border: 1px solid #151515">Anulado Q &nbsp;</td>
                     <td class="td_items border-solid text-danger" style="text-align: center; border: 1px solid #151515" data-format="0.00">{{ number_format($anulado, 2, '.', '') }}</td>
                 </tr>
                 <tr>
-                    <td colspan="9" class="text-right border-solid" style="text-align: right; border: 1px solid #151515">Total Neto S/ &nbsp;</td>
+                    <td colspan="9" class="text-right border-solid" style="text-align: right; border: 1px solid #151515">Total Neto Q &nbsp;</td>
                     <td class="td_items border-solid" style="text-align: center; border: 1px solid #151515" data-format="0.00">{{ number_format($total_neto, 2, '.', '') }}</td>
                 </tr>
             </tbody>
